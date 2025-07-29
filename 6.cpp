@@ -1,5 +1,6 @@
 // switch statement
 
+//Calc
 #include <iostream>
 using namespace std;
 int main()
