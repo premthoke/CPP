@@ -1,4 +1,5 @@
 //Patterns
+//(same logic to print * only change is cout<<" * ";)
 
 //ABCD
 #include <iostream>
