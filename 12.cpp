@@ -44,6 +44,5 @@ int main()
     cout << a / (b * c);
 }
 
-
 //Permutation 
 //homework
