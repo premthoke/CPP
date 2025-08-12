@@ -47,3 +47,24 @@ int main() {
     cout<<power(a,b);
     return 0;
 }
+
+
+//WAP function which calculates the factorial of n using recursion
+#include <iostream>
+using namespace std;
+int factorial(int n) {
+    if (n == 0 || n == 1) // base case
+        return 1;
+    return n * factorial(n - 1); // recursive step
+}
+int main() {
+    int n;
+    cout << "Enter n: ";
+    cin >> n;
+    if (n < 0) {
+        cout << "Factorial not defined for negative numbers.";
+    } else {
+        cout << "Factorial of " << n << " = " << factorial(n);
+    }
+    return 0;
+}
