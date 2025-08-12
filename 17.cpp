@@ -14,3 +14,18 @@ int main() {
     print(n);
     return 0;
 }
+
+//print sun from  1 to n using return
+#include <iostream>
+using namespace std;
+int sum(int n){
+    if(n==1) return 1;    
+    return n + sum(n-1);
+}
+int main() {
+    int n;
+    cout<<"enetr n : ";
+    cin>>n;
+    cout<<sum(n);
+    return 0;
+}
