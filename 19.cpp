@@ -24,3 +24,16 @@ int main() {
     cout << "max = " << max;
     return 0;
 }
+
+//min
+#include<iostream>
+using namespace std;
+int main() {
+    int arr[5] = {7, 3, 9, 2, 11};
+    int min = arr[0];
+    for(int i = 1; i < 5; i++) {
+        if(arr[i] < min) min = arr[i];
+    }
+    cout << "min = " << min;
+    return 0;
+}
