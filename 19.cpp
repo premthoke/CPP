@@ -37,3 +37,18 @@ int main() {
     cout << "min = " << min;
     return 0;
 }
+
+//
+#include<iostream>
+using namespace std;
+int main() {
+    int arr[6] = {5, 8, 3, 7, 2, 9};
+    for(int i = 0; i < 6; i++) {
+        if(i % 2 == 0) arr[i] = arr[i] + 10;   // even index
+        else arr[i] = arr[i] * 2;              // odd index
+    }
+    for(int i = 0; i < 6; i++) {
+        cout << arr[i] << " ";
+    }
+    return 0;
+}
