@@ -1,4 +1,4 @@
-//Trangle
+//Triangle
 
 //1-12-123-1234
 #include <iostream>
